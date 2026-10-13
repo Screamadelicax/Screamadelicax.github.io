@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tianrui Zhang — computer science student and builder.">
+    <title>Tianrui Zhang — Software &amp; Systems</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="wordmark" href="#about" aria-label="Go to About">
+          <span class="wordmark-mark">&gt;_</span>
+          <span>tianrui<span class="accent">.</span>dev</span>
+        </a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <button class="nav-link is-active" data-section="about">01 / About</button>
+          <button class="nav-link" data-section="experience">02 / Experience</button>
+          <button class="nav-link" data-section="skills">03 / Skills</button>
+          <button class="nav-link" data-section="projects">04 / Projects</button>
+        </nav>
+        <div class="social-links" aria-label="Social links">
+          <a href="mailto:tianrui_zhang@brown.edu" aria-label="Email Tianrui Zhang" title="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z"/><path d="m3 6 9 7 9-7"/></svg>
+          </a>
+          <a href="https://github.com/screamadelicax" target="_blank" rel="noreferrer" aria-label="GitHub profile" title="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.5 1.5-4.5-2.25-6.3-3M15.3 21v-3.3c0-1 .1-1.5-.5-2.2 3.2-.4 6.5-1.6 6.5-7a5.5 5.5 0 0 0-1.5-3.8 5 5 0 0 0-.1-3.7s-1.2-.4-4 1.5a13.7 13.7 0 0 0-7.4 0C5.5.6 4.3 1 4.3 1a5 5 0 0 0-.1 3.7 5.5 5.5 0 0 0-1.5 3.8c0 5.4 3.3 6.6 6.5 7-.6.7-.6 1.3-.5 2.2V21"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/tianrui-zhang-2265b5366/" target="_blank" rel="noreferrer" aria-label="LinkedIn profile" title="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8v11M5 5v.01M10 19v-7a4 4 0 0 1 8 0v7M10 8v11"/></svg>
+          </a>
+        </div>
+      </header>
+
+      <main class="main-content">
+        <section id="about" class="panel panel-about is-visible" aria-labelledby="about-title">
+          <div class="panel-copy">
+            <p class="eyebrow">About me</p>
+            <h1 id="about-title">Tianrui<br><span class="muted">Zhang.</span></h1>
+            <p class="intro">I'm a computer science student at Brown University. I'm interested in robust and beautiful software delivery, and studying the design of famous software systems or services to enjoy the art of their design.</p>
+            <p class="about-meta"><span>Currently</span> Providence, Rhode Island<br><span>Studying</span> Computer Science</p>
+            <div class="cta-row">
+              <button class="primary-btn" data-section="projects">View projects <span>↗</span></button>
+              <a class="text-link" href="mailto:tianrui_zhang@brown.edu">Email me <span>→</span></a>
+            </div>
+          </div>
+          <div class="about-photo" aria-label="Photo placeholder">
+            <!--<div class="photo-placeholder">
+              <span>YOUR PHOTO</span>
+              <small>add an image here</small>
+            </div>-->
+            <img src="photo.jpg" alt="Tianrui Zhang with a cat">
+            <p class="photo-caption">Tianrui Zhang <span>/</span> 2025</p>
+          </div>
+          <div class="page-index">01 <span>/</span> 04</div>
+        </section>
+
+        <section id="experience" class="panel panel-experience" aria-labelledby="experience-title">
+          <div class="experience-content">
+            <div class="section-heading"><p class="eyebrow">the path so far</p><h2 id="experience-title">Experience<span class="accent">.</span></h2></div>
+            <div class="experience-block education-block">
+              <h3 class="experience-label">Education<span class="accent">.</span></h3>
+              <div class="timeline">
+                <article class="timeline-item">
+                  <div class="timeline-date">2024 — now</div>
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-body"><h3>Brown University <span>/ Computer Science</span></h3><p>Gaining a deeper understanding of computer systems, distributed systems, and infrastructure services including networks and databases.</p><div class="tag-row"><span>systems</span><span>software engineering</span></div></div>
+                </article>
+                <article class="timeline-item">
+                  <div class="timeline-date">2021 — 2025</div>
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-body"><h3>Shanghai Jiao Tong University <span>/ Computer Science</span></h3><p>Built a foundation in mathematics, algorithms, and electronics while exploring systems, web development, deep learning, LLMs, and cloud computing.</p><div class="tag-row"><span>algorithms</span><span>AI</span><span>cloud</span><span>research</span></div></div>
+                </article>
+              </div>
+            </div>
+            <div class="experience-block">
+              <h3 class="experience-label">Work<span class="accent">.</span></h3>
+              <div class="timeline">
+                <article class="timeline-item">
+                  <div class="timeline-date">May 2026 — Aug 2026<br><span>San Jose, California</span></div>
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-body"><h3>Fullstack Development Intern <span>/ TikTok</span></h3><ul><li>Developed a full-stack content moderation platform with React, Kitex, Thrift and Go RPC for reviewing livestream punishment oncall tickets and resolving escalations.</li><li>Built an automatic oncall workflow for top content creators generating $1M+ in monthly revenue, creating and assigning tickets when creators receive certain punishments.</li><li>Refactored user protection data writes with Kafka-based flow control between application and ByteNDB calls, reducing excessive-concurrency DB errors from 24% to 0.02%.</li></ul><div class="tag-row"><span>React</span><span>Kitex</span><span>Go RPC</span><span>Kafka</span></div></div>
+                </article>
+                <article class="timeline-item">
+                  <div class="timeline-date">June 2024 — Sept 2024<br><span>Beijing, China</span></div>
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-body"><h3>Fullstack Development Intern <span>/ Meituan</span></h3><ul><li>Developed a TypeScript performance observer to collect scroll lagging rate and rendering speed on Meituan’s mobile application for cross-page profiling and benchmarking.</li><li>Implemented system hooks to timestamp user interactions and page rendering, calculating page lag rate and render time before reporting data to the Hive Cluster through REST APIs.</li><li>Designed debouncing to prevent redundant reports during high-frequency scroll rendering, enabling a 23% reduction in average scroll jank across key pages.</li></ul><div class="tag-row"><span>TypeScript</span><span>REST APIs</span><span>performance</span></div></div>
+                </article>
+                <article class="timeline-item">
+                  <div class="timeline-date">Nov 2024 — May 2025<br><span>Shanghai, China</span></div>
+                  <div class="timeline-marker"></div>
+                  <div class="timeline-body"><h3>Research Assistant <span>/ Shanghai Jiao Tong University</span></h3><ul><li>Developed a debugging agent that uses a debugger to locate errors in failed Java programs, collecting error information and call stacks to stop at failed test cases.</li><li>Established a socket connection between the agent and the target JVM to capture debug command history and results for future LLM-assisted reasoning.</li><li>Designed two LLM tools for source inspection and whitelisted debugger commands, enabling safe runtime-state exploration and breakpoint setting.</li><li>Achieved a 73% success rate in locating failed programs’ root causes at the method level.</li></ul><div class="tag-row"><span>Java</span><span>JVM</span><span>debugging</span><span>LLM</span></div></div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="page-index">02 <span>/</span> 04</div>
+        </section>
+
+        <section id="skills" class="panel" aria-labelledby="skills-title">
+          <div class="section-heading"><p class="eyebrow">tools of the trade</p><h2 id="skills-title">Skills<span class="accent">.</span></h2></div>
+          <div class="skills-grid">
+            <article class="skill-group"><span class="skill-number">01</span><h3>Languages</h3><div class="skill-list"><span>Go</span><span>Java</span><span>Python</span><span>C</span><span>C++</span><span>SQL</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Linux Shell</span></div></article>
+            <article class="skill-group"><span class="skill-number">02</span><h3>Frameworks</h3><div class="skill-list"><span>Apache Thrift</span><span>Kitex</span><span>Spring Boot</span><span>Spring Cloud</span><span>React.js</span><span>Flask</span><span>Django</span><span>JUnit</span></div></article>
+            <article class="skill-group"><span class="skill-number">03</span><h3>Tools</h3><div class="skill-list"><span>Git</span><span>Linux</span><span>Docker</span><span>AWS</span><span>MySQL</span><span>Redis</span><span>Kafka</span><span>ElasticSearch</span><span>CI/CD</span><span>ClickHouse</span></div></article>
+            <article class="skill-group"><span class="skill-number">04</span><h3>Concepts</h3><div class="skill-list"><span>Data Structure &amp; Algorithms</span><span>Operating System</span><span>Computer Network</span><span>Database</span><span>Distributed System</span></div></article>
+            <article class="skill-group"><span class="skill-number">05</span><h3>Hobbies</h3><div class="skill-list"><span>Music</span><span>Movie</span><span>Bass</span><span>Basketball</span><span>Indie Game</span><span>Food Exploration</span></div></article>
+          </div>
+          <div class="skills-footer"><span>focus</span><strong>— building reliable, scalable software</strong></div>
+          <div class="page-index">03 <span>/</span> 04</div>
+        </section>
+
+        <section id="projects" class="panel" aria-labelledby="projects-title">
+          <div class="section-heading"><p class="eyebrow">selected work</p><h2 id="projects-title">Projects<span class="accent">.</span></h2></div>
+          <div class="project-list">
+            <a class="project-card" href="https://github.com/Screamadelicax/museum" target="_blank" rel="noreferrer"><span class="project-index">01</span><div><h3>Museum — Digital Humanities Visualization</h3><p>ChinaVis 2024 project exploring museum collections with React, Flask, maps, charts, and interactive data views.</p><div class="project-tags"><span>React</span><span>Flask</span><span>Data Visualization</span></div></div><span class="project-arrow">↗</span></a>
+            <a class="project-card" href="https://github.com/Screamadelicax/Digital-Image-Processing-Project" target="_blank" rel="noreferrer"><span class="project-index">02</span><div><h3>Retinal Disease Classification</h3><p>Deep learning project for classifying hypertensive retinopathy images with custom training, evaluation, and visualization workflows.</p><div class="project-tags"><span>Python</span><span>Deep Learning</span><span>Computer Vision</span></div></div><span class="project-arrow">↗</span></a>
+            <a class="project-card" href="https://github.com/Screamadelicax/Simulated-File-System" target="_blank" rel="noreferrer"><span class="project-index">03</span><div><h3>Simulated File System</h3><p>C++ file-system simulation with disk and block mapping, inode management, and socket-based client/server communication.</p><div class="project-tags"><span>C++</span><span>Operating Systems</span><span>Sockets</span></div></div><span class="project-arrow">↗</span></a>
+          </div>
+          <div class="project-note"><span class="accent">//</span> <a href="https://github.com/Screamadelicax?tab=repositories" target="_blank" rel="noreferrer">View all repositories on GitHub ↗</a></div>
+          <div class="page-index">04 <span>/</span> 04</div>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
